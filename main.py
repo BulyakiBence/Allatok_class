@@ -1,7 +1,8 @@
-from allat import Allat
+from allat import Allat,Madar,Keteltu, Hullo
 from emlos import Emlos
 from emlos import Macska
 from emlos import Kutya
+
 # Állat 1: Bodri, faj: kutya, életkor: 5 év
 # Állat 2: Cirmi, faj: macska, életkor: 3 év
 
@@ -24,3 +25,14 @@ macska1.dorombol()
 kutya1 = Kutya("Cézár", 7, "udvar", "fekete")
 print(kutya1)
 kutya1.ugat()
+
+madar1 = Madar("Csőrike")
+print(madar1)
+madar1.csiripel()
+keteltu1 = Keteltu("Kisbeka")
+print(keteltu1)
+keteltu1.brekeg()
+
+hullo1 = Hullo("Fang")
+print(hullo1)
+hullo1.napozik()
